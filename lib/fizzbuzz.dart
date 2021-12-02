@@ -1,4 +1,9 @@
 /// Recursive implementation
+
+void main(List<String> args) {
+  fizzBuzzRecursive(1, 100);
+}
+
 void fizzBuzzRecursive(int start, int end,
     {bool isDebug = false, List<String> answers = const <String>[]}) {
   if (start % 15 == 0) {
